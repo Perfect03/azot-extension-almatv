@@ -1,7 +1,7 @@
 {
   "name": "almatv",
-  "version": "1.0.2",
-  "description": "This extension for Azot lets you to download content from the Freedom Media streaming service.",
+  "version": "1.0.0",
+  "description": "This extension for Azot lets you to download content from the AlmaTV streaming service.",
   "homepage": "https://app.almatv.kz",
   "config": {
     "title": "Alma TV",
