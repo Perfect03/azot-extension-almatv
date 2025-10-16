@@ -1,0 +1,34 @@
+{
+  "name": "almatv",
+  "version": "1.0.2",
+  "description": "This extension for Azot lets you to download content from the Freedom Media streaming service.",
+  "homepage": "https://app.almatv.kz",
+  "config": {
+    "title": "Alma TV",
+    "icon": "https://app.almatv.kz/images/almatv/header_logo.svg"
+  },
+  "keywords": [
+    "streaming-services"
+  ],
+  "author": {
+    "name": "Perfect03"
+  },
+  "license": "MIT",
+  "main": "dist/main.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "azt dev",
+    "build": "esbuild main.js --bundle --platform=node --outfile=dist/main.js",
+    "test": "vitest"
+  },
+  "engines": {
+    "azot": ">=4.3.10"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.11",
+    "platform24tv-api": "^1.0.2",
+    "vitest": "^3.2.4"
+  }
+}
