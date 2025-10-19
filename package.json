@@ -1,6 +1,6 @@
 {
   "name": "almatv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This extension for Azot lets you to download content from the AlmaTV streaming service.",
   "homepage": "https://app.almatv.kz",
   "config": {
@@ -11,7 +11,7 @@
     "streaming-services"
   ],
   "author": {
-    "name": "Perfect03"
+    "name": "Perfect_03"
   },
   "license": "MIT",
   "main": "dist/main.js",
@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "esbuild": "^0.25.11",
-    "platform24tv-api": "^1.0.2",
+    "platform24tv-api": "^1.0.3",
     "vitest": "^3.2.4"
   }
 }
